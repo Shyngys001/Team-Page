@@ -1,5 +1,6 @@
 body p{
     font-family:  "Poppins", sans-serif;
+    font-family: 'Roboto';
     
 }
 
@@ -16,6 +17,9 @@ header{
     font-weight: 700;
 }
 
+.des{
+    font-size: 15px;
+}
 
 .sec{
     width: 40%;
@@ -80,6 +84,8 @@ img{
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;    
+    font-size: 13px;
+
 }
 
 footer {
@@ -117,11 +123,10 @@ a{
     
 
     .prof1{
-        background-color: antiquewhite;
         grid-template-columns: 70%  70%;
         grid-template-rows: 10% 10% 200px;
         row-gap: 30%;
-        column-gap: 10%;
+        column-gap: 0%;
     }
     
     .photo{
@@ -144,4 +149,13 @@ a{
     .prof1 > :nth-child(6){
         margin-top: 50%;
     }
+    .p{
+    font-size: 9px;
+
+    }
+
+    .des{
+        font-size: 12px;
+    }
+
 }
